@@ -1,0 +1,17 @@
+// do overrides here
+$primary: #003e7a;
+$secondary: dodgerblue;
+$tertiary: #ebf2fa;
+$yellowApply: #ffde74;
+
+$breadcrumb-divider: quote(">");
+
+
+$theme-colors: (
+  "tertiary": $tertiary,
+  "yellowApply": $yellowApply,
+);
+
+// import all of bootstrap
+@import "bootstrap/bootstrap";
+
